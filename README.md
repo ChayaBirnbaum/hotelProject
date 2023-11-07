@@ -14,7 +14,7 @@ DELEAT https://myhotel.co.il/customers/1
 ## rooms
 ### הצגת כל החדרים:
 GET https://myhotel.co.il/rooms
-### הצגת חדר לפי ת.ז.
+### הצגת חדר לפי קוד
 GET https://myhotel.co.il/rooms/1
 ### הוספת חדר 
 POST https://myhotel.co.il/rooms
@@ -26,7 +26,7 @@ DELEAT https://myhotel.co.il/rooms/1
 ## orders
 ### הצגת כל ההזמנות:
 GET https://myhotel.co.il/orders
-### הצגת הזמנה לפי ת.ז.
+### הצגת הזמנה לפי קוד
 GET https://myhotel.co.il/orders/1
 ### הוספת הזמנה 
 POST https://myhotel.co.il/orders
