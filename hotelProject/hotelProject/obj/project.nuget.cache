@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6BfBsDnsRPLRQpwZ6Vzv3yscbEP4r/1pfNO1Kx2aXegOI3Cdim8lDV2C1i8r1WiBxfuvW3Awu/oG7mgwwhrE8g==",
+  "dgSpecHash": "/JH72cs7+w1RlYitptdsFxjyMGndKUIip3+Tha8VwV1+S9/Ozz7HXmxLg4eQ9NvrCwbQGomEaWvgixty80w/kg==",
   "success": true,
-  "projectFilePath": "\\\\FILESRV\\Handesaim2\\Group B\\C#\\tzipiBirnbaum-net core\\hotelProject\\hotelProject\\hotelProject\\hotelProject.csproj",
+  "projectFilePath": "\\\\FILESRV\\Handesaim2\\Group B\\NetCore\\tzipiBirnbaum-net core\\hotelProject\\hotelProject\\hotelProject\\hotelProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\student\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\student\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

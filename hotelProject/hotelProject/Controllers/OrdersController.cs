@@ -37,31 +37,38 @@ namespace hotelProject.Controllers
 
         // POST api/<OrdersController>
         [HttpPost]
-        public void Post([FromBody] Orders o)
+        public ActionResult Post([FromBody] Orders o)
         {
-            Rooms r = context.roomsList.Find(x => x.RoomId ==o.RoomID);  
+            Rooms r = context.roomsList.Find(x => x.RoomId ==o.RoomID);
+            if (r == null)
+                return NotFound();
             Orders ord = new Orders { OrderID = context.orederNum, CustID = o.CustID, Start = o.Start, numDays = o.numDays, Payment = o.numDays*r.Price, RoomID = o.RoomID };
             context.orederNum++;
             context.ordersList.Add(ord);
+            return Ok();
         }
 
         // PUT api/<OrdersController>/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] Orders o)
+        public ActionResult Put(int id, [FromBody] Orders o)
         {
             Orders ord = context.ordersList.Find(x=>x.OrderID==id);
+            if (ord == null) return NotFound();
             ord.Start = o.Start;
             ord.numDays = o.numDays;
             ord.Payment = o.Payment;
             ord.RoomID = o.RoomID;
+            return Ok();   
         }
 
         // DELETE api/<OrdersController>/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public ActionResult Delete(int id)
         {
             Orders ord = context.ordersList.Find(x=>x.OrderID==id);
+            if(ord == null) return NotFound(); 
             context.ordersList.Remove(ord);
+            return Ok();
         }
     }
 }
