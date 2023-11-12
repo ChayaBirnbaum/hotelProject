@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "T:\\Group B\\C#\\tzipiBirnbaum\\project\\hotelProject\\hotelProject\\hotelProject\\hotelProject.csproj": {}
+    "\\\\FILESRV\\Handesaim2\\Group B\\C#\\tzipiBirnbaum-net core\\hotelProject\\hotelProject\\hotelProject\\hotelProject.csproj": {}
   },
   "projects": {
-    "T:\\Group B\\C#\\tzipiBirnbaum\\project\\hotelProject\\hotelProject\\hotelProject\\hotelProject.csproj": {
+    "\\\\FILESRV\\Handesaim2\\Group B\\C#\\tzipiBirnbaum-net core\\hotelProject\\hotelProject\\hotelProject\\hotelProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "T:\\Group B\\C#\\tzipiBirnbaum\\project\\hotelProject\\hotelProject\\hotelProject\\hotelProject.csproj",
+        "projectUniqueName": "\\\\FILESRV\\Handesaim2\\Group B\\C#\\tzipiBirnbaum-net core\\hotelProject\\hotelProject\\hotelProject\\hotelProject.csproj",
         "projectName": "hotelProject",
-        "projectPath": "T:\\Group B\\C#\\tzipiBirnbaum\\project\\hotelProject\\hotelProject\\hotelProject\\hotelProject.csproj",
+        "projectPath": "\\\\FILESRV\\Handesaim2\\Group B\\C#\\tzipiBirnbaum-net core\\hotelProject\\hotelProject\\hotelProject\\hotelProject.csproj",
         "packagesPath": "C:\\Users\\student\\.nuget\\packages\\",
-        "outputPath": "T:\\Group B\\C#\\tzipiBirnbaum\\project\\hotelProject\\hotelProject\\hotelProject\\obj\\",
+        "outputPath": "\\\\FILESRV\\Handesaim2\\Group B\\C#\\tzipiBirnbaum-net core\\hotelProject\\hotelProject\\hotelProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

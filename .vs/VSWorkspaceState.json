@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\hotelProject",
+    "\\hotelProject\\hotelProject",
+    "\\hotelProject\\hotelProject\\Controllers"
   ],
+  "SelectedNode": "\\hotelProject\\hotelProject.sln",
   "PreviewInSolutionExplorer": false
 }

@@ -9,19 +9,24 @@ namespace hotelProject.Controllers
     [ApiController]
     public class CustomersController : ControllerBase
     {
-        private static List<Customers> customersList=new List<Customers>();
+        DataContext context;
         // GET: api/<CustomersController>
+        public CustomersController(DataContext data )
+        {
+            context = data;
+        }
+
         [HttpGet]
         public IEnumerable<Customers> Get()
         {
-            return customersList;
+            return context. customersList;
         }
 
         // GET api/<CustomersController>/5
         [HttpGet("{id}")]
         public Customers Get(string id)
         {
-            return customersList.Find(x => x.CustId ==id);
+            return context.customersList.Find(x => x.CustId ==id);
         }
 
         // POST api/<CustomersController>
@@ -29,14 +34,14 @@ namespace hotelProject.Controllers
         public void Post([FromBody] Customers c)
         {
             Customers customers = new Customers { CustId=c.CustId, Name=c.Name, Email=c.Email, Adress=c.Adress,Phone=c.Phone };
-            customersList.Add(customers);
+            context.customersList.Add(customers);
         }
 
         // PUT api/<CustomersController>/5
         [HttpPut("{id}")]
         public void Put(string id, [FromBody] Customers c)
         {
-            Customers cust = customersList.Find(x => x.CustId==id);
+            Customers cust = context.customersList.Find(x => x.CustId==id);
             cust.Name = c.Name;
             cust.Email = c.Email;
             cust.Adress = c.Adress;
@@ -48,8 +53,8 @@ namespace hotelProject.Controllers
         [HttpDelete("{id}")]
         public void Delete(string id)
         {
-             Customers cust = customersList.Find(x => x.CustId == id);
-            customersList.Remove(cust);
+             Customers cust = context.customersList.Find(x => x.CustId == id);
+            context.customersList.Remove(cust);
          }
     }
 }
