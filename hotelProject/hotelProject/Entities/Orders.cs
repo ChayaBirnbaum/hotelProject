@@ -8,7 +8,8 @@
         public string CustID { get; set; }
         public int RoomID { get; set; }
         public DateTime Start { get; set; }
-        public int numDays { get; set; }
+        public DateTime end{ get; set; }
+       // public int numDays { get; set; }
         public int Payment { get; set; }
     }
 }

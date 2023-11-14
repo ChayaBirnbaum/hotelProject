@@ -12,6 +12,7 @@ namespace hotelProject.Controllers
         //private static List<Orders> ordersList = new List<Orders>();
         //private static int orederNum=1;
         DataContext context;
+        
         // GET: api/<CustomersController>
         public OrdersController(DataContext data)
         {
@@ -39,10 +40,14 @@ namespace hotelProject.Controllers
         [HttpPost]
         public ActionResult Post([FromBody] Orders o)
         {
+            Customers c = context.customersList.Find(x => x.CustId == o.CustID);
             Rooms r = context.roomsList.Find(x => x.RoomId ==o.RoomID);
-            if (r == null)
+            if (r == null||c==null)
                 return NotFound();
-            Orders ord = new Orders { OrderID = context.orederNum, CustID = o.CustID, Start = o.Start, numDays = o.numDays, Payment = o.numDays*r.Price, RoomID = o.RoomID };
+            //בדיקה האם החדר פנוי בתאריך המבוקש
+            if (!Validation.isEmpty(o.OrderID,o.RoomID, o.Start,o.end))
+                return BadRequest();
+            Orders ord = new Orders { OrderID = context.orederNum, CustID = o.CustID, Start = o.Start, end = o.end, Payment =(int) (o.end-o.Start).TotalDays*r.Price, RoomID = o.RoomID };
             context.orederNum++;
             context.ordersList.Add(ord);
             return Ok();
@@ -52,10 +57,15 @@ namespace hotelProject.Controllers
         [HttpPut("{id}")]
         public ActionResult Put(int id, [FromBody] Orders o)
         {
+            Customers c = context.customersList.Find(x => x.CustId == o.CustID);
+            Rooms r = context.roomsList.Find(x => x.RoomId == o.RoomID);
             Orders ord = context.ordersList.Find(x=>x.OrderID==id);
-            if (ord == null) return NotFound();
+            if (ord == null||c==null||r==null) return NotFound();
+            //בדיקה האם החדר פנוי בתאריך המבוקש
+            if (!Validation.isEmpty(o.OrderID,o.RoomID, o.Start, o.end))
+                return BadRequest();
             ord.Start = o.Start;
-            ord.numDays = o.numDays;
+            ord.end = o.end;
             ord.Payment = o.Payment;
             ord.RoomID = o.RoomID;
             return Ok();   

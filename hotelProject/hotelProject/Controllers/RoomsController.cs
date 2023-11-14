@@ -9,8 +9,7 @@ namespace hotelProject.Controllers
     [ApiController]
     public class RoomsController : ControllerBase
     {
-        //private static List<Rooms> roomsList = new List<Rooms>();
-       // private static int[] roomNumber = new int[8];
+        
         DataContext context;
         // GET: api/<CustomersController>
         public RoomsController(DataContext data)
@@ -40,8 +39,7 @@ namespace hotelProject.Controllers
         public ActionResult Post([FromBody] Rooms r)
         {
             Rooms room = new Rooms { RoomId = r.Floor * 100 + context.roomNumber[r.Floor],  Floor = r.Floor, NumOfBad = r.NumOfBad, Price = r.Price };
-            if (room == null)
-                return NotFound();
+            
             context.roomNumber[r.Floor]++;
             context.roomsList.Add(room);
             return Ok();

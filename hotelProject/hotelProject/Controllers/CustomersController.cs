@@ -36,9 +36,16 @@ namespace hotelProject.Controllers
         [HttpPost]
         public ActionResult Post([FromBody] Customers c)
         {
+            //בדיקת תקינות קלט
+            if (!Validation.checkId(c.CustId)||!Validation.checkPhon(c.Phone)||!Validation.checkEmail(c.Email))
+                return BadRequest();
+            //בדיקה האם הלקוח כבר קיים במאגר
+            foreach(Customers cust in context.customersList)
+            {
+                if (c.CustId == cust.CustId)
+                    return BadRequest();
+            }
             Customers customers = new Customers { CustId=c.CustId, Name=c.Name, Email=c.Email, Adress=c.Adress,Phone=c.Phone };
-            if (customers != null)
-                return NotFound();
             context.customersList.Add(customers);
             return Ok();
         }

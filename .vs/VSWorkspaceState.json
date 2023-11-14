@@ -3,8 +3,9 @@
     "",
     "\\hotelProject",
     "\\hotelProject\\hotelProject",
-    "\\hotelProject\\hotelProject\\Controllers"
+    "\\hotelProject\\hotelProject\\Controllers",
+    "\\hotelProject\\hotelProject\\Entities"
   ],
-  "SelectedNode": "\\hotelProject\\hotelProject.sln",
+  "SelectedNode": "\\hotelProject\\hotelProject\\Entities\\Validation.cs",
   "PreviewInSolutionExplorer": false
 }

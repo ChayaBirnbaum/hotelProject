@@ -25,3 +25,30 @@ T:\Group B\C#\tzipiBirnbaum\project\hotelProject\hotelProject\hotelProject\obj\D
 T:\Group B\C#\tzipiBirnbaum\project\hotelProject\hotelProject\hotelProject\obj\Debug\net6.0\hotelProject.pdb
 T:\Group B\C#\tzipiBirnbaum\project\hotelProject\hotelProject\hotelProject\obj\Debug\net6.0\hotelProject.genruntimeconfig.cache
 T:\Group B\C#\tzipiBirnbaum\project\hotelProject\hotelProject\hotelProject\obj\Debug\net6.0\ref\hotelProject.dll
+C:\Users\user1\Desktop\לימודים\תכנות ציפי\שנה ב\net core\hotelProject\hotelProject\hotelProject\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\user1\Desktop\לימודים\תכנות ציפי\שנה ב\net core\hotelProject\hotelProject\hotelProject\bin\Debug\net6.0\appsettings.json
+C:\Users\user1\Desktop\לימודים\תכנות ציפי\שנה ב\net core\hotelProject\hotelProject\hotelProject\bin\Debug\net6.0\hotelProject.exe
+C:\Users\user1\Desktop\לימודים\תכנות ציפי\שנה ב\net core\hotelProject\hotelProject\hotelProject\bin\Debug\net6.0\hotelProject.deps.json
+C:\Users\user1\Desktop\לימודים\תכנות ציפי\שנה ב\net core\hotelProject\hotelProject\hotelProject\bin\Debug\net6.0\hotelProject.runtimeconfig.json
+C:\Users\user1\Desktop\לימודים\תכנות ציפי\שנה ב\net core\hotelProject\hotelProject\hotelProject\bin\Debug\net6.0\hotelProject.dll
+C:\Users\user1\Desktop\לימודים\תכנות ציפי\שנה ב\net core\hotelProject\hotelProject\hotelProject\bin\Debug\net6.0\hotelProject.pdb
+C:\Users\user1\Desktop\לימודים\תכנות ציפי\שנה ב\net core\hotelProject\hotelProject\hotelProject\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\user1\Desktop\לימודים\תכנות ציפי\שנה ב\net core\hotelProject\hotelProject\hotelProject\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\user1\Desktop\לימודים\תכנות ציפי\שנה ב\net core\hotelProject\hotelProject\hotelProject\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\user1\Desktop\לימודים\תכנות ציפי\שנה ב\net core\hotelProject\hotelProject\hotelProject\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\user1\Desktop\לימודים\תכנות ציפי\שנה ב\net core\hotelProject\hotelProject\hotelProject\obj\Debug\net6.0\hotelProject.csproj.AssemblyReference.cache
+C:\Users\user1\Desktop\לימודים\תכנות ציפי\שנה ב\net core\hotelProject\hotelProject\hotelProject\obj\Debug\net6.0\hotelProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\Desktop\לימודים\תכנות ציפי\שנה ב\net core\hotelProject\hotelProject\hotelProject\obj\Debug\net6.0\hotelProject.AssemblyInfoInputs.cache
+C:\Users\user1\Desktop\לימודים\תכנות ציפי\שנה ב\net core\hotelProject\hotelProject\hotelProject\obj\Debug\net6.0\hotelProject.AssemblyInfo.cs
+C:\Users\user1\Desktop\לימודים\תכנות ציפי\שנה ב\net core\hotelProject\hotelProject\hotelProject\obj\Debug\net6.0\hotelProject.csproj.CoreCompileInputs.cache
+C:\Users\user1\Desktop\לימודים\תכנות ציפי\שנה ב\net core\hotelProject\hotelProject\hotelProject\obj\Debug\net6.0\hotelProject.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\user1\Desktop\לימודים\תכנות ציפי\שנה ב\net core\hotelProject\hotelProject\hotelProject\obj\Debug\net6.0\hotelProject.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\user1\Desktop\לימודים\תכנות ציפי\שנה ב\net core\hotelProject\hotelProject\hotelProject\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\user1\Desktop\לימודים\תכנות ציפי\שנה ב\net core\hotelProject\hotelProject\hotelProject\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\user1\Desktop\לימודים\תכנות ציפי\שנה ב\net core\hotelProject\hotelProject\hotelProject\obj\Debug\net6.0\scopedcss\bundle\hotelProject.styles.css
+C:\Users\user1\Desktop\לימודים\תכנות ציפי\שנה ב\net core\hotelProject\hotelProject\hotelProject\obj\Debug\net6.0\hotelProject.csproj.CopyComplete
+C:\Users\user1\Desktop\לימודים\תכנות ציפי\שנה ב\net core\hotelProject\hotelProject\hotelProject\obj\Debug\net6.0\hotelProject.dll
+C:\Users\user1\Desktop\לימודים\תכנות ציפי\שנה ב\net core\hotelProject\hotelProject\hotelProject\obj\Debug\net6.0\refint\hotelProject.dll
+C:\Users\user1\Desktop\לימודים\תכנות ציפי\שנה ב\net core\hotelProject\hotelProject\hotelProject\obj\Debug\net6.0\hotelProject.pdb
+C:\Users\user1\Desktop\לימודים\תכנות ציפי\שנה ב\net core\hotelProject\hotelProject\hotelProject\obj\Debug\net6.0\hotelProject.genruntimeconfig.cache
+C:\Users\user1\Desktop\לימודים\תכנות ציפי\שנה ב\net core\hotelProject\hotelProject\hotelProject\obj\Debug\net6.0\ref\hotelProject.dll
